@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="23px" height="52px" viewBox="0 0 23 52" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 25</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="BL-main_Light" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-524.000000, -751.000000)" stroke-linecap="square">
+        <g id="Group-25" transform="translate(525.000000, 753.000000)" stroke="#7D10DE" stroke-width="2">
+            <polyline id="Line-7" transform="translate(10.500000, 4.010010) rotate(-90.000000) translate(-10.500000, -4.010010) " points="14.5 -5.5 6.5 3.83007812 14.5 13.5200195"></polyline>
+            <polyline id="Line-7" transform="translate(10.500000, 24.010010) rotate(-90.000000) translate(-10.500000, -24.010010) " points="14.5 14.5 6.5 23.8300781 14.5 33.5200195"></polyline>
+            <polyline id="Line-7" transform="translate(10.500000, 44.010010) rotate(-90.000000) translate(-10.500000, -44.010010) " points="14.5 34.5 6.5 43.8300781 14.5 53.5200195"></polyline>
+        </g>
+    </g>
+</svg>

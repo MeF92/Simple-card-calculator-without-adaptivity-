@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="311px" height="53px" viewBox="0 0 311 53" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 23</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="BL-main_Light" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-830.000000, -700.000000)">
+        <g id="Group-23" transform="translate(829.000000, 700.000000)">
+            <g id="Group-22" transform="translate(274.000000, 0.000000)" stroke-width="2">
+                <rect id="Rectangle-4" stroke="#1D3649" x="1" y="1" width="36" height="8" rx="2"></rect>
+                <rect id="Rectangle-4" stroke="#7D10DE" x="1" y="16" width="8" height="8" rx="2"></rect>
+                <rect id="Rectangle-4" stroke="#7D10DE" x="15" y="16" width="8" height="8" rx="2"></rect>
+                <rect id="Rectangle-4" stroke="#7D10DE" x="29" y="16" width="8" height="8" rx="2"></rect>
+                <rect id="Rectangle-4" stroke="#7D10DE" x="1" y="30" width="8" height="8" rx="2"></rect>
+                <rect id="Rectangle-4" stroke="#7D10DE" x="15" y="30" width="8" height="8" rx="2"></rect>
+                <rect id="Rectangle-4" stroke="#7D10DE" x="1" y="44" width="8" height="8" rx="2"></rect>
+                <rect id="Rectangle-4" stroke="#7D10DE" x="15" y="44" width="8" height="8" rx="2"></rect>
+                <rect id="Rectangle-4" stroke="#7D10DE" x="29" y="30" width="8" height="22" rx="2"></rect>
+            </g>
+            <path d="M246.5,26 L206.450031,26" id="Line-6" stroke="#000000" stroke-width="2" stroke-linecap="square"></path>
+            <polyline id="Line-7" stroke="#000000" stroke-width="2" stroke-linecap="square" points="193.5 17.5 185.5 26.8300781 193.5 36.5200195"></polyline>
+            <polyline id="Line-7" stroke="#000000" stroke-width="2" stroke-linecap="square" points="173.5 17.5 165.5 26.8300781 173.5 36.5200195"></polyline>
+            <g id="Group" transform="translate(0.000000, 14.000000)" fill="#7D10DE" font-family="AkzidenzGroteskPro-Regular, Akzidenz-Grotesk Pro" font-size="24" font-weight="normal" letter-spacing="1">
+                <text id="калькулятор">
+                    <tspan x="0" y="18">калькулятор</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

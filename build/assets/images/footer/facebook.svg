@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="30px" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 21</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="BL-main_Light" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-143.000000, -4838.000000)" opacity="0.5">
+        <g id="Footer" transform="translate(143.000000, 4838.000000)">
+            <g id="Group-7">
+                <g id="Group-21">
+                    <ellipse id="Oval-2" stroke="#1D3649" opacity="0.300000012" cx="14.9968854" cy="15" rx="14.4968854" ry="14.5"></ellipse>
+                    <path d="M18.5972119,12.555542 L15.8634046,12.5560889 L15.8634046,10.368042 C15.8634046,9.52366699 16.2920656,9.27429199 17.503689,9.27429199 L18.5972119,9.27429199 L18.5972119,6.53991699 L16.4101661,6.53991699 C14.1837535,6.53991699 12.582836,7.87155762 12.582836,10.368042 L12.582836,12.555542 L9.84902873,12.555542 L9.84902873,15.289917 L12.582836,15.289917 L12.582836,22.946167 L15.8634046,22.946167 L15.8634046,15.289917 L18.0504504,15.289917 L18.5972119,12.555542 Z" id="f" fill="#1D3649"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

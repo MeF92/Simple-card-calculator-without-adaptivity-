@@ -1,0 +1,708 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/style/style.css"/>
+  </head>
+</html>
+<header class="header">
+  <div class="header__container container">
+    <div class="header__menu">
+      <div class="header__wrap"><a class="header__logo" href="#"><img class="header__logo-source" src="assets/images/header/Logo.svg" alt="Logo"/></a>
+        <ul class="header__list">
+          <li class="header__item"><a class="header__link" href="#">Отправить заявку</a></li>
+          <li class="header__item"><a class="header__link" href="#">Наши работы</a></li>
+        </ul>
+      </div>
+      <div class="header__selected">
+        <p class="header__text">Выбрано</p>
+        <div class="header__icon"><span class="header__number">5</span></div>
+      </div>
+    </div>
+    <div class="header__content">
+      <h1 class="header__title">Business Launch</h1>
+      <p class="header__slogan">так же быстро, как приготовить ланч</p>
+      <p class="header__amount">&#8805;300 000<span class="amount__letter"> в </span></p>
+    </div>
+    <div class="header__calculator"><img class="header__calculator-source" src="assets/images/header/calc.svg" alt="calculator"/></div>
+    <div class="header__arrows"></div>
+  </div>
+</header>
+<main>
+  <div class="guideline">
+    <div class="guideline__container container">
+      <div class="guideline__wrapper">
+        <div class="guideline__item"><img class="guideline__item-source" src="assets/images/guideline/symbol1.svg"/>
+          <h3 class="guideline__title">Стоимость</h3>
+          <p class="guideline__description">Вы сами определяете стоимость сайта</p>
+        </div>
+        <div class="guideline__item"><img class="guideline__item-source" src="assets/images/guideline/symbol2.svg"/>
+          <h3 class="guideline__title">Дизайн</h3>
+          <p class="guideline__description">Дизайн мы оставляем на свое усмотрение</p>
+        </div>
+        <div class="guideline__item"><img class="guideline__item-source" src="assets/images/guideline/symbol3.svg"/>
+          <h3 class="guideline__title">Разработка</h3>
+          <p class="guideline__description">Подключим и настроим выбранные модули</p>
+        </div>
+        <div class="guideline__item"><img class="guideline__item-source" src="assets/images/guideline/symbol4.svg"/>
+          <h3 class="guideline__title">Тестирование</h3>
+          <p class="guideline__description">Выявим и устраним возможные проблемы в работе сайта</p>
+        </div>
+        <div class="guideline__item"><img class="guideline__item-source" src="assets/images/guideline/symbol5.svg"/>
+          <h3 class="guideline__title">Запуск</h3>
+          <p class="guideline__description">После подписания акта запустим сайт        </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="terms">
+    <div class="terms__container container">
+      <div class="terms__paragraphs">
+        <p class="terms__paragraph">Представляем вашему вниманию BUSINESS LAUNCH — онлайн-сервис расчета стоимости разработки сайта. Калькулятор подсчитает, во сколько обойдется ваш сайт и расскажет, как получил такую стоимость.</p>
+        <p class="terms__paragraph">Если вы не знаете с чего начать, выберите одно из готовых решений, это может быть: «Визитка» (сайт-визитка), «Корпоративный» (корпоративный сайт) и «Магазин» (интернет-магазин). При нажатии на одну из указанных опций автоматически будут выбраны модули в блоке «Модули вашего сайта», а также справа отобразится чек со стоимостью работ.</p>
+      </div>
+      <h2 class="terms__title">Условия</h2>
+      <div class="terms__wrapper">
+        <div class="terms__item"><img class="terms__item-source" src="assets/images/terms/symbol1.svg"/>
+          <p class="terms__description">Предоставляется три бесплатных варианта логотипа для одного сайта</p>
+        </div>
+        <div class="terms__item"><img class="terms__item-source" src="assets/images/terms/symbol2.svg"/>
+          <p class="terms__description">Акция проводится с 01 февраля по 25 марта</p>
+        </div>
+        <div class="terms__item"><img class="terms__item-source" src="assets/images/terms/symbol3.svg"/>
+          <p class="terms__description">В зависимости от сложности сайта, срок разработки может составить от 2 до 6 месяцев</p>
+        </div>
+        <div class="terms__item"><img class="terms__item-source" src="assets/images/terms/symbol4.svg"/>
+          <p class="terms__description">Разработка логотипа за 1 руб. предоставляется на проекты стоимостью от 500 тысяч рублей</p>
+        </div>
+        <div class="terms__item"><img class="terms__item-source" src="assets/images/terms/symbol5.svg"/>
+          <p class="terms__description">Количество разрабатываемых логотипов может быть расширено за счет клиента                      </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="calculator">
+    <div class="calculator__container container">
+      <div class="calculator__header">
+        <div class="calculator__title">Калькулятор решения</div>
+        <ul class="calculator__nav">
+          <li class="calculator__nav__element"><a class="calculator__nav__link calculator__nav__link_isActive" href="">Визитка</a></li>
+          <li class="calculator__nav__element"><a class="calculator__nav__link" href="">Корпоративный</a></li>
+          <li class="calculator__nav__element"><a class="calculator__nav__link" href="">Магазин</a></li>
+        </ul>
+      </div>
+      <div class="calculator__wrapper calculator__wrapper_isActive calculator__wrapper1">
+        <div class="calculator__item" id="one">
+          <div class="calculator__item-wrap">
+            <div class="calculator__item-title">Корзина товаров</div>
+            <div class="calculator__item-description">Модуль позволяющий совершать покупки на сайте через корзину</div>
+          </div>
+          <div class="calculator__item-bottom">
+            <div class="calculator__item-input input input_type-checkbox input_theme_violet">
+              <input class="input__source" type="checkbox" name="checkin" id="calculator__item-icon1"/>
+              <label class="input__label" for="calculator__item-icon1">
+                <div class="input__label-icon"></div>
+              </label>
+            </div>
+            <div class="calculator__item-cost">2300 о      </div>
+          </div>
+        </div>
+        <div class="calculator__item" id="two">
+          <div class="calculator__item-wrap">
+            <div class="calculator__item-title">Личный кабинет</div>
+            <div class="calculator__item-description">Модуль позволяющий совершать покупки на сайте через корзину</div>
+          </div>
+          <div class="calculator__item-bottom">
+            <div class="calculator__item-input input input_type-checkbox input_theme_violet">
+              <input class="input__source" type="checkbox" name="checkin" id="calculator__item-icon2"/>
+              <label class="input__label" for="calculator__item-icon2">
+                <div class="input__label-icon"></div>
+              </label>
+            </div>
+            <div class="calculator__item-cost">4100 о   </div>
+          </div>
+        </div>
+        <div class="calculator__item" id="three">
+          <div class="calculator__item-wrap">
+            <div class="calculator__item-title">Поисковая система по сайту</div>
+            <div class="calculator__item-description">Модуль позволяющий совершать покупки на сайте через корзину</div>
+          </div>
+          <div class="calculator__item-bottom">
+            <div class="calculator__item-input input input_type-checkbox input_theme_violet">
+              <input class="input__source" type="checkbox" name="checkin" id="calculator__item-icon3"/>
+              <label class="input__label" for="calculator__item-icon3">
+                <div class="input__label-icon"></div>
+              </label>
+            </div>
+            <div class="calculator__item-cost">1200 о   </div>
+          </div>
+        </div>
+        <div class="calculator__item" id="four">
+          <div class="calculator__item-wrap">
+            <div class="calculator__item-title">Поисковая система по сайту</div>
+            <div class="calculator__item-description">Модуль позволяющий совершать покупки на сайте через корзину</div>
+          </div>
+          <div class="calculator__item-bottom">
+            <div class="calculator__item-input input input_type-checkbox input_theme_violet">
+              <input class="input__source" type="checkbox" name="checkin" id="calculator__item-icon4"/>
+              <label class="input__label" for="calculator__item-icon4">
+                <div class="input__label-icon"></div>
+              </label>
+            </div>
+            <div class="calculator__item-cost">1200 о   </div>
+          </div>
+        </div>
+        <div class="calculator__item" id="five">
+          <div class="calculator__item-wrap">
+            <div class="calculator__item-title">Корзина товаров</div>
+            <div class="calculator__item-description">Модуль позволяющий совершать покупки на сайте через корзину</div>
+          </div>
+          <div class="calculator__item-bottom">
+            <div class="calculator__item-input input input_type-checkbox input_theme_violet">
+              <input class="input__source" type="checkbox" name="checkin" id="calculator__item-icon5"/>
+              <label class="input__label" for="calculator__item-icon5">
+                <div class="input__label-icon"></div>
+              </label>
+            </div>
+            <div class="calculator__item-cost">2300 о   </div>
+          </div>
+        </div>
+        <div class="calculator__item" id="six">
+          <div class="calculator__item-wrap">
+            <div class="calculator__item-title">Личный кабинет</div>
+            <div class="calculator__item-description">Модуль позволяющий совершать покупки на сайте через корзину</div>
+          </div>
+          <div class="calculator__item-bottom">
+            <div class="calculator__item-input input input_type-checkbox input_theme_violet">
+              <input class="input__source" type="checkbox" name="checkin" id="calculator__item-icon6"/>
+              <label class="input__label" for="calculator__item-icon6">
+                <div class="input__label-icon"></div>
+              </label>
+            </div>
+            <div class="calculator__item-cost">4100 о   </div>
+          </div>
+        </div>
+        <div class="calculator__item" id="seven">
+          <div class="calculator__item-wrap">
+            <div class="calculator__item-title">Поисковая система по сайту</div>
+            <div class="calculator__item-description">Модуль позволяющий совершать покупки на сайте через корзину</div>
+          </div>
+          <div class="calculator__item-bottom">
+            <div class="calculator__item-input input input_type-checkbox input_theme_violet">
+              <input class="input__source" type="checkbox" name="checkin" id="calculator__item-icon7"/>
+              <label class="input__label" for="calculator__item-icon7">
+                <div class="input__label-icon"></div>
+              </label>
+            </div>
+            <div class="calculator__item-cost">1200 о   </div>
+          </div>
+        </div>
+        <div class="calculator__item" id="eight">
+          <div class="calculator__item-wrap">
+            <div class="calculator__item-title">Поисковая система по сайту</div>
+            <div class="calculator__item-description">Модуль позволяющий совершать покупки на сайте через корзину</div>
+          </div>
+          <div class="calculator__item-bottom">
+            <div class="calculator__item-input input input_type-checkbox input_theme_violet">
+              <input class="input__source" type="checkbox" name="checkin" id="calculator__item-icon8"/>
+              <label class="input__label" for="calculator__item-icon8">
+                <div class="input__label-icon"></div>
+              </label>
+            </div>
+            <div class="calculator__item-cost">1200 о</div>
+          </div>
+        </div>
+        <div class="calculator__item" id="nine">
+          <div class="calculator__item-wrap">
+            <div class="calculator__item-title">Корзина товаров</div>
+            <div class="calculator__item-description">Модуль позволяющий совершать покупки на сайте через корзину</div>
+          </div>
+          <div class="calculator__item-bottom">
+            <div class="calculator__item-input input input_type-checkbox input_theme_violet">
+              <input class="input__source" type="checkbox" name="checkin" id="calculator__item-icon9"/>
+              <label class="input__label" for="calculator__item-icon9">
+                <div class="input__label-icon"></div>
+              </label>
+            </div>
+            <div class="calculator__item-cost">2300 о   </div>
+          </div>
+        </div>
+        <div class="calculator__item" id="ten">
+          <div class="calculator__item-wrap">
+            <div class="calculator__item-title">Личный кабинет</div>
+            <div class="calculator__item-description">Модуль позволяющий совершать покупки на сайте через корзину</div>
+          </div>
+          <div class="calculator__item-bottom">
+            <div class="calculator__item-input input input_type-checkbox input_theme_violet">
+              <input class="input__source" type="checkbox" name="checkin" id="calculator__item-icon10"/>
+              <label class="input__label" for="calculator__item-icon10">
+                <div class="input__label-icon"></div>
+              </label>
+            </div>
+            <div class="calculator__item-cost">4100 о   </div>
+          </div>
+        </div>
+        <div class="calculator__item" id="eleven">
+          <div class="calculator__item-wrap">
+            <div class="calculator__item-title">Поисковая система по сайту</div>
+            <div class="calculator__item-description">Модуль позволяющий совершать покупки на сайте через корзину</div>
+          </div>
+          <div class="calculator__item-bottom">
+            <div class="calculator__item-input input input_type-checkbox input_theme_violet">
+              <input class="input__source" type="checkbox" name="checkin" id="calculator__item-icon11"/>
+              <label class="input__label" for="calculator__item-icon11">
+                <div class="input__label-icon"></div>
+              </label>
+            </div>
+            <div class="calculator__item-cost">1200 о   </div>
+          </div>
+        </div>
+        <div class="calculator__item" id="twelve">
+          <div class="calculator__item-wrap">
+            <div class="calculator__item-title">Поисковая система по сайту</div>
+            <div class="calculator__item-description">Модуль позволяющий совершать покупки на сайте через корзину</div>
+          </div>
+          <div class="calculator__item-bottom">
+            <div class="calculator__item-input input input_type-checkbox input_theme_violet">
+              <input class="input__source" type="checkbox" name="checkin" id="calculator__item-icon12"/>
+              <label class="input__label" for="calculator__item-icon12">
+                <div class="input__label-icon"></div>
+              </label>
+            </div>
+            <div class="calculator__item-cost">1200 о</div>
+          </div>
+        </div>
+      </div>
+      <div class="calculator__wrapper calculator__wrapper2">
+        <div class="calculator__item" id="one">
+          <div class="calculator__item-wrap">
+            <div class="calculator__item-title">Поисковая система по сайту</div>
+            <div class="calculator__item-description">Модуль позволяющий совершать покупки на сайте через корзину</div>
+          </div>
+          <div class="calculator__item-bottom">
+            <div class="calculator__item-input input input_type-checkbox input_theme_violet">
+              <input class="input__source" type="checkbox" name="checkin" id="calculator__item-icon1"/>
+              <label class="input__label" for="calculator__item-icon1">
+                <div class="input__label-icon"></div>
+              </label>
+            </div>
+            <div class="calculator__item-cost">2300 о      </div>
+          </div>
+        </div>
+        <div class="calculator__item" id="two">
+          <div class="calculator__item-wrap">
+            <div class="calculator__item-title">Личный кабинет</div>
+            <div class="calculator__item-description">Модуль позволяющий совершать покупки на сайте через корзину</div>
+          </div>
+          <div class="calculator__item-bottom">
+            <div class="calculator__item-input input input_type-checkbox input_theme_violet">
+              <input class="input__source" type="checkbox" name="checkin" id="calculator__item-icon2"/>
+              <label class="input__label" for="calculator__item-icon2">
+                <div class="input__label-icon"></div>
+              </label>
+            </div>
+            <div class="calculator__item-cost">4100 о   </div>
+          </div>
+        </div>
+        <div class="calculator__item" id="three">
+          <div class="calculator__item-wrap">
+            <div class="calculator__item-title">Поисковая система по сайту</div>
+            <div class="calculator__item-description">Модуль позволяющий совершать покупки на сайте через корзину</div>
+          </div>
+          <div class="calculator__item-bottom">
+            <div class="calculator__item-input input input_type-checkbox input_theme_violet">
+              <input class="input__source" type="checkbox" name="checkin" id="calculator__item-icon3"/>
+              <label class="input__label" for="calculator__item-icon3">
+                <div class="input__label-icon"></div>
+              </label>
+            </div>
+            <div class="calculator__item-cost">1200 о   </div>
+          </div>
+        </div>
+        <div class="calculator__item" id="four">
+          <div class="calculator__item-wrap">
+            <div class="calculator__item-title">Поисковая система по сайту</div>
+            <div class="calculator__item-description">Модуль позволяющий совершать покупки на сайте через корзину</div>
+          </div>
+          <div class="calculator__item-bottom">
+            <div class="calculator__item-input input input_type-checkbox input_theme_violet">
+              <input class="input__source" type="checkbox" name="checkin" id="calculator__item-icon4"/>
+              <label class="input__label" for="calculator__item-icon4">
+                <div class="input__label-icon"></div>
+              </label>
+            </div>
+            <div class="calculator__item-cost">1200 о   </div>
+          </div>
+        </div>
+        <div class="calculator__item" id="five">
+          <div class="calculator__item-wrap">
+            <div class="calculator__item-title">Корзина товаров</div>
+            <div class="calculator__item-description">Модуль позволяющий совершать покупки на сайте через корзину</div>
+          </div>
+          <div class="calculator__item-bottom">
+            <div class="calculator__item-input input input_type-checkbox input_theme_violet">
+              <input class="input__source" type="checkbox" name="checkin" id="calculator__item-icon5"/>
+              <label class="input__label" for="calculator__item-icon5">
+                <div class="input__label-icon"></div>
+              </label>
+            </div>
+            <div class="calculator__item-cost">2300 о   </div>
+          </div>
+        </div>
+        <div class="calculator__item" id="six">
+          <div class="calculator__item-wrap">
+            <div class="calculator__item-title">Личный кабинет</div>
+            <div class="calculator__item-description">Модуль позволяющий совершать покупки на сайте через корзину</div>
+          </div>
+          <div class="calculator__item-bottom">
+            <div class="calculator__item-input input input_type-checkbox input_theme_violet">
+              <input class="input__source" type="checkbox" name="checkin" id="calculator__item-icon6"/>
+              <label class="input__label" for="calculator__item-icon6">
+                <div class="input__label-icon"></div>
+              </label>
+            </div>
+            <div class="calculator__item-cost">4100 о   </div>
+          </div>
+        </div>
+        <div class="calculator__item" id="seven">
+          <div class="calculator__item-wrap">
+            <div class="calculator__item-title">Поисковая система по сайту</div>
+            <div class="calculator__item-description">Модуль позволяющий совершать покупки на сайте через корзину</div>
+          </div>
+          <div class="calculator__item-bottom">
+            <div class="calculator__item-input input input_type-checkbox input_theme_violet">
+              <input class="input__source" type="checkbox" name="checkin" id="calculator__item-icon7"/>
+              <label class="input__label" for="calculator__item-icon7">
+                <div class="input__label-icon"></div>
+              </label>
+            </div>
+            <div class="calculator__item-cost">1200 о   </div>
+          </div>
+        </div>
+        <div class="calculator__item" id="eight">
+          <div class="calculator__item-wrap">
+            <div class="calculator__item-title">Поисковая система по сайту</div>
+            <div class="calculator__item-description">Модуль позволяющий совершать покупки на сайте через корзину</div>
+          </div>
+          <div class="calculator__item-bottom">
+            <div class="calculator__item-input input input_type-checkbox input_theme_violet">
+              <input class="input__source" type="checkbox" name="checkin" id="calculator__item-icon8"/>
+              <label class="input__label" for="calculator__item-icon8">
+                <div class="input__label-icon"></div>
+              </label>
+            </div>
+            <div class="calculator__item-cost">1200 о</div>
+          </div>
+        </div>
+        <div class="calculator__item" id="nine">
+          <div class="calculator__item-wrap">
+            <div class="calculator__item-title">Корзина товаров</div>
+            <div class="calculator__item-description">Модуль позволяющий совершать покупки на сайте через корзину</div>
+          </div>
+          <div class="calculator__item-bottom">
+            <div class="calculator__item-input input input_type-checkbox input_theme_violet">
+              <input class="input__source" type="checkbox" name="checkin" id="calculator__item-icon9"/>
+              <label class="input__label" for="calculator__item-icon9">
+                <div class="input__label-icon"></div>
+              </label>
+            </div>
+            <div class="calculator__item-cost">2300 о   </div>
+          </div>
+        </div>
+        <div class="calculator__item" id="ten">
+          <div class="calculator__item-wrap">
+            <div class="calculator__item-title">Личный кабинет</div>
+            <div class="calculator__item-description">Модуль позволяющий совершать покупки на сайте через корзину</div>
+          </div>
+          <div class="calculator__item-bottom">
+            <div class="calculator__item-input input input_type-checkbox input_theme_violet">
+              <input class="input__source" type="checkbox" name="checkin" id="calculator__item-icon10"/>
+              <label class="input__label" for="calculator__item-icon10">
+                <div class="input__label-icon"></div>
+              </label>
+            </div>
+            <div class="calculator__item-cost">4100 о   </div>
+          </div>
+        </div>
+        <div class="calculator__item" id="eleven">
+          <div class="calculator__item-wrap">
+            <div class="calculator__item-title">Поисковая система по сайту</div>
+            <div class="calculator__item-description">Модуль позволяющий совершать покупки на сайте через корзину</div>
+          </div>
+          <div class="calculator__item-bottom">
+            <div class="calculator__item-input input input_type-checkbox input_theme_violet">
+              <input class="input__source" type="checkbox" name="checkin" id="calculator__item-icon11"/>
+              <label class="input__label" for="calculator__item-icon11">
+                <div class="input__label-icon"></div>
+              </label>
+            </div>
+            <div class="calculator__item-cost">1200 о   </div>
+          </div>
+        </div>
+        <div class="calculator__item" id="twelve">
+          <div class="calculator__item-wrap">
+            <div class="calculator__item-title">Поисковая система по сайту</div>
+            <div class="calculator__item-description">Модуль позволяющий совершать покупки на сайте через корзину</div>
+          </div>
+          <div class="calculator__item-bottom">
+            <div class="calculator__item-input input input_type-checkbox input_theme_violet">
+              <input class="input__source" type="checkbox" name="checkin" id="calculator__item-icon12"/>
+              <label class="input__label" for="calculator__item-icon12">
+                <div class="input__label-icon"></div>
+              </label>
+            </div>
+            <div class="calculator__item-cost">1200 о</div>
+          </div>
+        </div>
+      </div>
+      <div class="calculator__wrapper calculator__wrapper3">
+        <div class="calculator__item" id="one">
+          <div class="calculator__item-wrap">
+            <div class="calculator__item-title">Личный кабинет</div>
+            <div class="calculator__item-description">Модуль позволяющий совершать покупки на сайте через корзину</div>
+          </div>
+          <div class="calculator__item-bottom">
+            <div class="calculator__item-input input input_type-checkbox input_theme_violet">
+              <input class="input__source" type="checkbox" name="checkin" id="calculator__item-icon1"/>
+              <label class="input__label" for="calculator__item-icon1">
+                <div class="input__label-icon"></div>
+              </label>
+            </div>
+            <div class="calculator__item-cost">2300 о      </div>
+          </div>
+        </div>
+        <div class="calculator__item" id="two">
+          <div class="calculator__item-wrap">
+            <div class="calculator__item-title">Личный кабинет</div>
+            <div class="calculator__item-description">Модуль позволяющий совершать покупки на сайте через корзину</div>
+          </div>
+          <div class="calculator__item-bottom">
+            <div class="calculator__item-input input input_type-checkbox input_theme_violet">
+              <input class="input__source" type="checkbox" name="checkin" id="calculator__item-icon2"/>
+              <label class="input__label" for="calculator__item-icon2">
+                <div class="input__label-icon"></div>
+              </label>
+            </div>
+            <div class="calculator__item-cost">4100 о   </div>
+          </div>
+        </div>
+        <div class="calculator__item" id="three">
+          <div class="calculator__item-wrap">
+            <div class="calculator__item-title">Поисковая система по сайту</div>
+            <div class="calculator__item-description">Модуль позволяющий совершать покупки на сайте через корзину</div>
+          </div>
+          <div class="calculator__item-bottom">
+            <div class="calculator__item-input input input_type-checkbox input_theme_violet">
+              <input class="input__source" type="checkbox" name="checkin" id="calculator__item-icon3"/>
+              <label class="input__label" for="calculator__item-icon3">
+                <div class="input__label-icon"></div>
+              </label>
+            </div>
+            <div class="calculator__item-cost">1200 о   </div>
+          </div>
+        </div>
+        <div class="calculator__item" id="four">
+          <div class="calculator__item-wrap">
+            <div class="calculator__item-title">Поисковая система по сайту</div>
+            <div class="calculator__item-description">Модуль позволяющий совершать покупки на сайте через корзину</div>
+          </div>
+          <div class="calculator__item-bottom">
+            <div class="calculator__item-input input input_type-checkbox input_theme_violet">
+              <input class="input__source" type="checkbox" name="checkin" id="calculator__item-icon4"/>
+              <label class="input__label" for="calculator__item-icon4">
+                <div class="input__label-icon"></div>
+              </label>
+            </div>
+            <div class="calculator__item-cost">1200 о   </div>
+          </div>
+        </div>
+        <div class="calculator__item" id="five">
+          <div class="calculator__item-wrap">
+            <div class="calculator__item-title">Корзина товаров</div>
+            <div class="calculator__item-description">Модуль позволяющий совершать покупки на сайте через корзину</div>
+          </div>
+          <div class="calculator__item-bottom">
+            <div class="calculator__item-input input input_type-checkbox input_theme_violet">
+              <input class="input__source" type="checkbox" name="checkin" id="calculator__item-icon5"/>
+              <label class="input__label" for="calculator__item-icon5">
+                <div class="input__label-icon"></div>
+              </label>
+            </div>
+            <div class="calculator__item-cost">2300 о   </div>
+          </div>
+        </div>
+        <div class="calculator__item" id="six">
+          <div class="calculator__item-wrap">
+            <div class="calculator__item-title">Личный кабинет</div>
+            <div class="calculator__item-description">Модуль позволяющий совершать покупки на сайте через корзину</div>
+          </div>
+          <div class="calculator__item-bottom">
+            <div class="calculator__item-input input input_type-checkbox input_theme_violet">
+              <input class="input__source" type="checkbox" name="checkin" id="calculator__item-icon6"/>
+              <label class="input__label" for="calculator__item-icon6">
+                <div class="input__label-icon"></div>
+              </label>
+            </div>
+            <div class="calculator__item-cost">4100 о   </div>
+          </div>
+        </div>
+        <div class="calculator__item" id="seven">
+          <div class="calculator__item-wrap">
+            <div class="calculator__item-title">Поисковая система по сайту</div>
+            <div class="calculator__item-description">Модуль позволяющий совершать покупки на сайте через корзину</div>
+          </div>
+          <div class="calculator__item-bottom">
+            <div class="calculator__item-input input input_type-checkbox input_theme_violet">
+              <input class="input__source" type="checkbox" name="checkin" id="calculator__item-icon7"/>
+              <label class="input__label" for="calculator__item-icon7">
+                <div class="input__label-icon"></div>
+              </label>
+            </div>
+            <div class="calculator__item-cost">1200 о   </div>
+          </div>
+        </div>
+        <div class="calculator__item" id="eight">
+          <div class="calculator__item-wrap">
+            <div class="calculator__item-title">Поисковая система по сайту</div>
+            <div class="calculator__item-description">Модуль позволяющий совершать покупки на сайте через корзину</div>
+          </div>
+          <div class="calculator__item-bottom">
+            <div class="calculator__item-input input input_type-checkbox input_theme_violet">
+              <input class="input__source" type="checkbox" name="checkin" id="calculator__item-icon8"/>
+              <label class="input__label" for="calculator__item-icon8">
+                <div class="input__label-icon"></div>
+              </label>
+            </div>
+            <div class="calculator__item-cost">1200 о</div>
+          </div>
+        </div>
+        <div class="calculator__item" id="nine">
+          <div class="calculator__item-wrap">
+            <div class="calculator__item-title">Корзина товаров</div>
+            <div class="calculator__item-description">Модуль позволяющий совершать покупки на сайте через корзину</div>
+          </div>
+          <div class="calculator__item-bottom">
+            <div class="calculator__item-input input input_type-checkbox input_theme_violet">
+              <input class="input__source" type="checkbox" name="checkin" id="calculator__item-icon9"/>
+              <label class="input__label" for="calculator__item-icon9">
+                <div class="input__label-icon"></div>
+              </label>
+            </div>
+            <div class="calculator__item-cost">2300 о   </div>
+          </div>
+        </div>
+        <div class="calculator__item" id="ten">
+          <div class="calculator__item-wrap">
+            <div class="calculator__item-title">Личный кабинет</div>
+            <div class="calculator__item-description">Модуль позволяющий совершать покупки на сайте через корзину</div>
+          </div>
+          <div class="calculator__item-bottom">
+            <div class="calculator__item-input input input_type-checkbox input_theme_violet">
+              <input class="input__source" type="checkbox" name="checkin" id="calculator__item-icon10"/>
+              <label class="input__label" for="calculator__item-icon10">
+                <div class="input__label-icon"></div>
+              </label>
+            </div>
+            <div class="calculator__item-cost">4100 о   </div>
+          </div>
+        </div>
+        <div class="calculator__item" id="eleven">
+          <div class="calculator__item-wrap">
+            <div class="calculator__item-title">Поисковая система по сайту</div>
+            <div class="calculator__item-description">Модуль позволяющий совершать покупки на сайте через корзину</div>
+          </div>
+          <div class="calculator__item-bottom">
+            <div class="calculator__item-input input input_type-checkbox input_theme_violet">
+              <input class="input__source" type="checkbox" name="checkin" id="calculator__item-icon11"/>
+              <label class="input__label" for="calculator__item-icon11">
+                <div class="input__label-icon"></div>
+              </label>
+            </div>
+            <div class="calculator__item-cost">1200 о   </div>
+          </div>
+        </div>
+        <div class="calculator__item" id="twelve">
+          <div class="calculator__item-wrap">
+            <div class="calculator__item-title">Поисковая система по сайту</div>
+            <div class="calculator__item-description">Модуль позволяющий совершать покупки на сайте через корзину</div>
+          </div>
+          <div class="calculator__item-bottom">
+            <div class="calculator__item-input input input_type-checkbox input_theme_violet">
+              <input class="input__source" type="checkbox" name="checkin" id="calculator__item-icon12"/>
+              <label class="input__label" for="calculator__item-icon12">
+                <div class="input__label-icon"></div>
+              </label>
+            </div>
+            <div class="calculator__item-cost">1200 о                                          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="order">
+    <div class="order__container container">
+      <div class="order__title">Выбрано:</div>
+      <div class="order__result"></div>
+      <div class="order__price">
+        <div class="order__price-ordering">Заказать</div>
+        <div class="order__price-amount">0</div>
+        <div class="order__price-save">Сохранить</div>
+      </div>
+    </div>
+  </div>
+  <div class="form">
+    <div class="form__container container">
+      <div class="form__title">Заполните обязательные поля и мы начнем готовить ваш <span class='form__title-addition'>Business Launch</span></div>
+      <form method="post" action="#">
+        <div class="form__input input input_text">
+          <label class="input__label">Имя</label>
+          <input class="input__source" id="test" type="text" name="user-name"/>
+        </div>
+        <div class="form__input input input_text"> 
+          <label class="input__label">Телефон</label>
+          <input class="input__source" type="tel" name="user-phone-number"/>
+        </div>
+        <div class="form__input input input_text"> 
+          <label class="input__label">Email</label>
+          <input class="input__source" type="email" name="user-mail"/>
+        </div>
+        <div class="form__input input input_file"> 
+          <label class="input__label" for="dfh">Документ</label>
+          <input class="input__source" type="file" name="document" id="dfh"/>
+        </div>
+        <div class="form__input input input_textarea input_text"> 
+          <textarea class="input__source" name="comment" maxlength="345"></textarea>
+          <label class="input__label">Несколько слов</label>
+        </div>
+        <input class="input_type-submit" type="submit" value="Отправить"/>
+      </form>
+    </div>
+  </div>
+</main>
+<footer>
+  <div class="footer">
+    <div class="footer__container container">
+      <div class="footer__social"><a class="footer__social-item" href="#"><img src="assets/images/footer/facebook.svg"/></a><a class="footer__social-item" href="#"><img src="assets/images/footer/vk.svg"/></a><a class="footer__social-item" href="#"><img src="assets/images/footer/instagramm.svg"/></a><a class="footer__social-item" href="#"><img src="assets/images/footer/youtube.svg"/></a>
+        <div class="footer__copyright">&copy; 2018 ООО &laquo;Студия Эн Кей Эйч&raquo;</div>
+      </div>
+      <div class="footer__contacts">
+        <div class="footer__wrap"><a class="footer__contacts-icon" href="tel:+7-495-587-42-00"> <img src="assets/images/footer/phone.svg"/></a>
+          <div class="footer__phone">+7 (495) 587-42-00</div>
+        </div>
+        <div class="footer__site">Перейти на сайт <a href='#' target='_blank' class='footer__site-addition'>NKH  Studio</a>  </div>
+      </div>
+    </div>
+  </div>
+</footer>
+<script src="http://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script src="http://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.4/TweenMax.min.js"></script>
+<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/plugins/ScrollToPlugin.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/debug.addIndicators.min.js"></script>
+<script type="text/javascript" src="assets/js/modules/animation.gsap.js"></script>
+<script src="assets/js/animations.js"></script>
+<script src="assets/js/functions.js"></script>

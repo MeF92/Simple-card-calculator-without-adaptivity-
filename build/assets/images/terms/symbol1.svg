@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="45px" height="45px" viewBox="0 0 45 45" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>g2260</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="BL-main_Light" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-242.000000, -1811.000000)" stroke-linecap="round">
+        <g id="Group-22-Copy" transform="translate(239.000000, 1735.000000)" stroke-width="2">
+            <g id="g2260" transform="translate(4.000000, 77.000000)">
+                <path d="M6.03208077,7.19873596 L6.03196653,0.0688849294" id="path1537" stroke="#FFA6B4" stroke-linejoin="round"></path>
+                <path d="M6.03219502,42.912507 L6.03196653,18.6913452" id="path1506" stroke="#7D10DE" stroke-linejoin="round"></path>
+                <ellipse id="path1512" stroke="#7D10DE" stroke-linejoin="bevel" cx="5.67955776" cy="12.9450091" rx="5.50031326" ry="5.74629462"></ellipse>
+                <path d="M21.0866527,23.4722896 L21.0865385,0.0688849294" id="path1530" stroke="#FFA6B4" stroke-linejoin="round"></path>
+                <path d="M21.0867669,42.912507 L21.0865385,34.9648988" id="path1510" stroke="#7D10DE" stroke-linejoin="round"></path>
+                <ellipse id="circle1514" stroke="#7D10DE" stroke-linejoin="bevel" cx="20.9558932" cy="29.2184629" rx="5.50031326" ry="5.74629462"></ellipse>
+                <path d="M36.8507535,12.2191315 L36.8507535,0.0432794069" id="path1523" stroke="#FFA6B4" stroke-linejoin="round"></path>
+                <path d="M36.8507535,42.8869015 L36.8507535,23.7116818" id="path1508" stroke="#7D10DE" stroke-linejoin="round"></path>
+                <ellipse id="circle1516" stroke="#7D10DE" stroke-linejoin="bevel" cx="36.5881856" cy="17.9653815" rx="5.50031326" ry="5.74629462"></ellipse>
+            </g>
+        </g>
+    </g>
+</svg>

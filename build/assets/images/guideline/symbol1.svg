@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="60px" height="60px" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 25</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="BL-main_Light" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-214.000000, -949.000000)">
+        <g id="Benefits" transform="translate(0.000000, 859.000000)" stroke-width="3">
+            <g id="Group-10" transform="translate(214.000000, 90.000000)">
+                <g id="Group-25">
+                    <circle id="Oval-3" stroke="#FFFFFF" cx="13.5" cy="13.5" r="12"></circle>
+                    <circle id="Oval-3" stroke="#FFFFFF" cx="46.5" cy="13.5" r="12"></circle>
+                    <circle id="Oval-3" stroke="#FFA6B4" cx="46.5" cy="46.5" r="12"></circle>
+                    <circle id="Oval-3" stroke="#FFA6B4" cx="14.5" cy="46.5" r="12"></circle>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

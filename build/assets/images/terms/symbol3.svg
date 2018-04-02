@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="53px" height="44px" viewBox="0 0 53 44" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>g2737</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="BL-main_Light" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-644.000000, -1811.000000)" stroke-linecap="round" stroke-linejoin="round">
+        <g id="Group-22-Copy" transform="translate(239.000000, 1735.000000)" stroke-width="2">
+            <g id="g2737" transform="translate(406.000000, 77.000000)">
+                <path d="M10.7058824,23.7058824 C15.4639595,22.0709677 20.4781195,21.2352957 25.5297905,21.2352941 C30.5811914,21.2352952 35.5950873,22.0708772 40.3529412,23.7056203" id="path2696" stroke="#7D10DE"></path>
+                <path d="M4.94117647,14 C11.3623543,11.8237037 18.2098457,10.7058833 25.1201274,10.7058824 C32.0286133,10.7058821 38.8743585,11.8231204 45.2941176,13.9983151" id="circle2698" stroke="#7D10DE"></path>
+                <path d="M0,4.93854108 C8.07182553,1.67971478 16.7538713,3.92037154e-07 25.5261492,0 C34.300815,5.72870129e-07 42.9851746,1.68062959 51.0588235,4.94117647" id="circle2700" stroke="#7D10DE"></path>
+                <circle id="path2723" stroke="#FFA6B4" cx="25.1176471" cy="36.6470588" r="5.35294118"></circle>
+            </g>
+        </g>
+    </g>
+</svg>
